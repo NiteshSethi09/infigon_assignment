@@ -1,9 +1,8 @@
 import { RxDotFilled } from "react-icons/rx";
-import { AiOutlineFlag, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineFlag, AiOutlineMenu, AiOutlineCodepen } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
 import { BsPersonCircle, BsStars } from "react-icons/bs";
 import { CgPassword } from "react-icons/cg";
-import { SiNintendogamecube } from "react-icons/si";
 import { MdOutlinePeople } from "react-icons/md";
 import PageDetails from "../PageDetails";
 
@@ -93,7 +92,7 @@ const Dashboard = () => {
                   <span className="pl-3">Applications</span>
                 </div>
                 <div className="flex cursor-pointer rounded-md p-2 hover:bg-slate-200">
-                  <SiNintendogamecube size={22} />
+                  <AiOutlineCodepen size={22} />
                   <span className="pl-3">API</span>
                 </div>
               </div>
